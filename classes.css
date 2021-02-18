@@ -7,7 +7,7 @@ body{
     background-color:black;
 }
 .jumbotron{
-    background-image: url('../RealPortfolio/assets/colorsplash.jpg');
+    background-image: url('./assets/colorsplash.jpg');
     min-height: 900px;
     text-align: center;
     
