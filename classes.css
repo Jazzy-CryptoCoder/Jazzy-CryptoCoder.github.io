@@ -1,0 +1,95 @@
+:root{
+    --font-family: 'Libre Baskerville', serif;
+}
+
+
+body{
+    background-color:black;
+}
+.jumbotron{
+    background-image: url('../RealPortfolio/assets/colorsplash.jpg');
+    min-height: 900px;
+    text-align: center;
+    
+
+
+
+}
+.display-4{
+    color:whitesmoke;
+    margin:auto;
+    top:200px
+    
+}
+.lead{
+    font-size: 50pt;
+    color:whitesmoke;
+    font-family: 'Dancing Script', cursive;
+    margin:auto
+}   
+.split{
+    color: white
+  
+    
+}
+.projects{
+    color:rgb(0, 0, 0);
+    font-size: 18pt;
+    font-family: var(--font-family);
+}
+.card-body{
+    background-image: url(".//assets/colorsplash.jpg");
+    color:rgb(172, 160, 139);
+
+}
+p{
+    font-family: var(--font-family);
+    color:beige;
+}
+
+h2{
+    color:beige;
+    font-weight: 800;
+    
+}
+
+.btn{
+    position:sticky;
+    margin:auto
+    
+}
+
+.col-4-sm{
+    margin: auto;
+    border-style: outset;
+}
+ 
+ .card{
+     margin: auto;
+     border-color: transparent;
+   
+ }  
+
+ .split{
+     text-align: left;
+ }
+ #formWrapper{
+background-image: url('https://images.unsplash.com/photo-1598662779094-110c2bad80b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1415&q=80');
+color:white
+}
+
+ myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right:30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
