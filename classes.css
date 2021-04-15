@@ -12,7 +12,7 @@ body{
     }
 .jumbotron{
     background-image: url('./assets/colorsplash.jpg');
-    min-height: 900px;
+    min-height: 700px;
     text-align: center;
     
 
@@ -102,4 +102,15 @@ footer{
 }
 .btn-default:hover{
     background-color: grey;
+}
+#footer{
+    position:relative;
+    margin-top:0px;
+    margin-right: 0px;
+    margin-left:-200px;
+    margin-bottom:0px,
+}
+
+placeholder{
+    color:grey
 }
