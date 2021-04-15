@@ -3,9 +3,13 @@
 }
 
 
-body{
+/* body{
     background-color:black;
-}
+} */
+body{
+    background-image: linear-gradient(#3aafb9,#0a3a3b,#97C8EB);
+
+    }
 .jumbotron{
     background-image: url('./assets/colorsplash.jpg');
     min-height: 900px;
@@ -36,7 +40,8 @@ body{
     font-family: var(--font-family);
 }
 .card-body{
-    background-image: url("./assets/colorsplash.jpg");
+    background: #093A3E;
+    /* background-image: url("./assets/colorsplash.jpg"); */
     color:brown(172, 160, 139);
 
 }
