@@ -7,16 +7,17 @@
     background-color:black;
 } */
 body{
-    background-image: linear-gradient(#3aafb9,#0a3a3b,#97C8EB);
+    background-color:#c4c4c4 ;
 
     }
+
+img{
+    border-radius: 5em;
+}
 .jumbotron{
-    background-image: url('./assets/colorsplash.jpg');
-    min-height: 700px;
+    background-image: url('./assets/mountainphoto.jfif');
+    background-size:cover;
     text-align: center;
-    
-
-
 
 }
 .display-4{
@@ -40,7 +41,7 @@ body{
     font-family: var(--font-family);
 }
 .card-body{
-    background: #093A3E;
+    background: #78acb1;
     /* background-image: url("./assets/colorsplash.jpg"); */
     color:brown(172, 160, 139);
 
@@ -49,13 +50,15 @@ body{
 
 p{
     font-family: var(--font-family);
-    color:beige;
+    color:rgb(23, 3, 97);
+    line-height:2;
+    text-align: center;
   
 
 }
 
 h2{
-    color:beige;
+    color:rgb(12, 12, 56);
     font-weight: 800;
     
 }
@@ -92,9 +95,12 @@ footer{
      background-color:red;
  }
 
+nav{
+    background-color:midnightblue;
+}
 
 .nav-item:hover{
-    background-color: red;
+    background-color: rgb(185, 185, 189);
 
 }
 .btn-default{

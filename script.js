@@ -1,5 +1,5 @@
 
-//Get the button:
+//Get the button for the id in the HTML file:
 mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
